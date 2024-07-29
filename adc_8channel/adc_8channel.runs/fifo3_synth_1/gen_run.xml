@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="fifo3_synth_1" LaunchPart="xcku040-ffva1156-2-i" LaunchTime="1721198367">
+  <File Type="PA-TCL" Name="fifo3.tcl"/>
+  <File Type="REPORTS-TCL" Name="fifo3_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fifo3.vds"/>
+  <File Type="RDS-UTIL" Name="fifo3_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fifo3_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fifo3.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo3">
+    <File Path="$PSRCDIR/sources_1/ip/fifo3/fifo3.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../adc_ethernet_v1/adc_ethernet/adc_ethernet.srcs/sources_1/ip/fifo3/fifo3.xci"/>
+        <Attr Name="ImportTime" Val="1721027034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo3.xcix">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../adc_ethernet_v1/adc_ethernet/adc_ethernet.srcs/sources_1/ip/fifo3.xcix"/>
+        <Attr Name="ImportTime" Val="1721027107"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo3"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo3">
+    <File Path="$PSRCDIR/sources_1/ip/fifo3/fifo3.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../adc_ethernet_v1/adc_ethernet/adc_ethernet.srcs/sources_1/ip/fifo3/fifo3.xci"/>
+        <Attr Name="ImportTime" Val="1721027034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo3.xcix">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../adc_ethernet_v1/adc_ethernet/adc_ethernet.srcs/sources_1/ip/fifo3.xcix"/>
+        <Attr Name="ImportTime" Val="1721027107"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo3"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

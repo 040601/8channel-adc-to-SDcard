@@ -1,0 +1,2 @@
+ila_3.v,verilog,xil_defaultlib,../../../../adc_8channel.srcs/sources_1/ip/ila_3/sim/ila_3.v,incdir="../../../../adc_8channel.srcs/sources_1/ip/ila_3/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v
